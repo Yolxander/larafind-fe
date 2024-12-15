@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { AnimatedSection } from '@/components/AnimatedSection'
 import { motion } from 'framer-motion'
-import { getRecommendations } from '@/utils/gptApi'
+import { getRecommendations } from '@/../utils/gptApi'
 
 type Package = {
   name: string;
